@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MapsActivity">
+
+    <!-- Temporary icon for testing tweets activity -->
+    <item
+        android:id="@+id/action_tweets"
+        android:icon="@mipmap/ic_description_white_24dp"
+        android:title="@string/action_tweets"
+        app:showAsAction="ifRoom"
+        />
+
+    <!-- Search icon -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_search_white_24dp"
+        android:title="@string/action_search"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
